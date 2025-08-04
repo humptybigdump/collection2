@@ -1,0 +1,49 @@
+\pagestyle{plain}
+\chapter{Erläterung/Inhalt}
+
+\noindent Mengenschreibweise:
+\[
+ \mathcal{B} = \{B_{\alpha} \in \mathcal{T}\, |\,  U = \bigcup B_{\alpha} \forall U \in \mathcal{T} \}
+\]
+\begin{align*}
+    3x^2 \in R \subset Q \\
+    \mathnormal{3x^2 \in R \subset Q} \\
+    \mathrm{3x^2 \in R \subset Q} \\
+    \mathit{3x^2 \in R \subset Q} \\
+    \mathbf{3x^2 \in R \subset Q} \\
+    \mathsf{3x^2 \in R \subset Q} \\
+    \mathtt{3x^2 \in R \subset Q}
+\end{align*}
+
+\noindent Mathematische Formeln im Text: \(x^2 + y^2 = z^2\) \\
+Man kann auch \texttt{\$...\$} benutzen: $E=mc^2$ \\
+Oder auch: \verb|\begin{math}...\end{math}| \begin{math}\frac{1}{2}\end{math} \\
+
+\noindent Mathematische Formeln getrennt vom Text: \[ x^n + y^n = z^n \] 
+\begin{displaymath}
+    \sqrt{x^2+1}
+\end{displaymath}
+\begin{equation*}
+    \sqrt{x^2+1}
+\end{equation*}
+
+\noindent Mit \texttt{equation} oder \texttt{multiline} ohne \texttt{*} kann man auf Formeln verweisen:
+\begin{equation} \label{example}
+    \sqrt{x^2+1}
+\end{equation}
+\noindent Siehe \ref{example} für die Formel.\\
+
+\noindent Für längere Formeln \texttt{multiline} verwenden
+\begin{multline*}
+    p(x) = 3x^6 + 14x^5y + 590x^4y^2 + 19x^3y^3\\ 
+    - 12x^2y^4 - 12xy^5 + 2y^6 - a^3b^3
+\end{multline*}
+
+\newpage
+
+\noindent Summen im Text: $\sum_{n=1}^{\infty} 2^{-n} = 1$ \\
+Summen ohne Text: \[ \sum_{n=1}^{\infty} 2^{-n} = 1 \]
+
+\noindent Produkte im Text: $\prod_{i=a}^{b} f(i)$ \\
+Produkte ohne Text: \[ \prod_{i=a}^{b} f(i) \]
+

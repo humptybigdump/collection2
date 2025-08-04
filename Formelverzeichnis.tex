@@ -1,0 +1,6 @@
+	\newcommand{\listequationsname}{Formelverzeichnis}
+	\newlistof{myequations}{equ}{\listequationsname}
+	\newcommand{\myequations}[1]{%
+		\addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
+	
+	\listofmyequations

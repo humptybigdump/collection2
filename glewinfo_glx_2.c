@@ -1,0 +1,7 @@
+}
+
+#else /* _UNIX */
+
+static void glxewInfo ()
+{
+// CG_REVISION fc0065073ef87f395a75395eb2653ec714d21d12

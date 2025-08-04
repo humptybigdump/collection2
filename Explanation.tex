@@ -1,0 +1,49 @@
+\pagestyle{plain}
+\chapter{Explanation/Main Part}
+
+\noindent Math font:
+\[
+ \mathcal{B} = \{B_{\alpha} \in \mathcal{T}\, |\,  U = \bigcup B_{\alpha} \forall U \in \mathcal{T} \}
+\]
+\begin{align*}
+    3x^2 \in R \subset Q \\
+    \mathnormal{3x^2 \in R \subset Q} \\
+    \mathrm{3x^2 \in R \subset Q} \\
+    \mathit{3x^2 \in R \subset Q} \\
+    \mathbf{3x^2 \in R \subset Q} \\
+    \mathsf{3x^2 \in R \subset Q} \\
+    \mathtt{3x^2 \in R \subset Q}
+\end{align*}
+
+\noindent Inline math code: \(x^2 + y^2 = z^2\) \\
+Also use \texttt{\$...\$}: $E=mc^2$ \\
+Or: \verb|\begin{math}...\end{math}|: \begin{math}\frac{1}{2}\end{math} \\
+
+\noindent Display math code: \[ x^n + y^n = z^n \] 
+\begin{displaymath}
+    \sqrt{x^2+1}
+\end{displaymath}
+\begin{equation*}
+    \sqrt{x^2+1}
+\end{equation*}
+
+\noindent Refer to equations with \texttt{equation} or \texttt{multiline} without \texttt{*}:
+\begin{equation} \label{example}
+    \sqrt{x^2+1}
+\end{equation}
+\noindent Compare with \ref{example}.\\
+
+\noindent For longer equations use \texttt{multiline}:
+\begin{multline*}
+    p(x) = 3x^6 + 14x^5y + 590x^4y^2 + 19x^3y^3\\ 
+    - 12x^2y^4 - 12xy^5 + 2y^6 - a^3b^3
+\end{multline*}
+
+\newpage
+
+\noindent Sum inside text: $\sum_{n=1}^{\infty} 2^{-n} = 1$ \\
+Sum outside text: \[ \sum_{n=1}^{\infty} 2^{-n} = 1 \]
+
+\noindent Product inside text: $\prod_{i=a}^{b} f(i)$ \\
+Product outside text: \[ \prod_{i=a}^{b} f(i) \]
+
